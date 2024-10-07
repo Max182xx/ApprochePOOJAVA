@@ -5,7 +5,7 @@ public class TestMethodeStatic {
 
         String chaine = "12";
         int nombre = Integer.parseInt(chaine);
-        System.out.println(chaine);
+        System.out.println(nombre);
 
         int a =34;
         int b = 24;
