@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5e9bd3-7aba-47c1-9b44-7982c8bccbb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/CompteTaux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestBanque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Theatre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Credit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Debit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/ManipulationChaine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestMoyenne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestTheatre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/operations/CalculMoyenne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/operations/Operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entites/TestMethodeStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/TestMethodeStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +46,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ManipulationChaine.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
+    "Application.TestMoyenne.executor": "Run",
+    "Application.TestOperations.executor": "Run",
     "Application.TestPersonne.executor": "Run",
+    "Application.TestTheatre.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -50,11 +61,27 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="array" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Developpement\Java\ApprochePOOJAVA\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ManipulationChaine">
+    <configuration name="ManipulationChaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.ManipulationChaine" />
+      <module name="ApprochePOOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.chaines.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.entites.TestBanque" />
       <module name="ApprochePOOJAVA" />
@@ -68,8 +95,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMoyenne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestMoyenne" />
+      <module name="ApprochePOOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestOperations" />
+      <module name="ApprochePOOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTheatre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestTheatre" />
+      <module name="ApprochePOOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ManipulationChaine" />
+        <item itemvalue="Application.TestTheatre" />
+        <item itemvalue="Application.TestMoyenne" />
+        <item itemvalue="Application.TestOperations" />
         <item itemvalue="Application.TestBanque" />
       </list>
     </recent_temporary>
@@ -84,5 +154,16 @@
       <updated>1728038279386</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/ManipulationChaine.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
