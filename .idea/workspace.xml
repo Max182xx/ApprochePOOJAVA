@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5e9bd3-7aba-47c1-9b44-7982c8bccbb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/CreationListe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/FusionListe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestListeInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestListeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fichier/CreerFichier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fichier/LectureFichier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fichier/Ville.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Ville.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maps/CreationMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maps/mapVilles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/Ville.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CreationListe.executor": "Run",
+    "Application.CreationMap.executor": "Run",
+    "Application.CreerFichier.executor": "Run",
     "Application.FusionListe.executor": "Run",
+    "Application.LectureFichier.executor": "Run",
     "Application.ManipulationChaine.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
     "Application.TestBanque.executor": "Run",
@@ -53,6 +58,8 @@
     "Application.TestOperations.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "Application.TestTheatre.executor": "Run",
+    "Application.TestVilles.executor": "Run",
+    "Application.mapVilles.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -68,9 +75,48 @@
       <recent name="C:\Developpement\Java\ApprochePOOJAVA\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestListeString">
-    <configuration name="CreationListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.CreationListe" />
+  <component name="RunManager" selected="Application.mapVilles">
+    <configuration name="CreationMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.CreationMap" />
+      <module name="ApprochePOOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreerFichier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fichier.CreerFichier" />
+      <module name="ApprochePOOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fichier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LectureFichier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fichier.LectureFichier" />
+      <module name="ApprochePOOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fichier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestVilles" />
       <module name="ApprochePOOJAVA" />
       <extension name="coverage">
         <pattern>
@@ -82,51 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FusionListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.FusionListe" />
+    <configuration name="mapVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.mapVilles" />
       <module name="ApprochePOOJAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManipulationChaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.ManipulationChaine" />
-      <module name="ApprochePOOJAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.diginamic.chaines.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestListeInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestListeInt" />
-      <module name="ApprochePOOJAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestListeString" />
-      <module name="ApprochePOOJAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listes.*" />
+          <option name="PATTERN" value="maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestListeString" />
-        <item itemvalue="Application.TestListeInt" />
-        <item itemvalue="Application.FusionListe" />
-        <item itemvalue="Application.CreationListe" />
-        <item itemvalue="Application.ManipulationChaine" />
+        <item itemvalue="Application.mapVilles" />
+        <item itemvalue="Application.CreationMap" />
+        <item itemvalue="Application.LectureFichier" />
+        <item itemvalue="Application.CreerFichier" />
+        <item itemvalue="Application.TestVilles" />
       </list>
     </recent_temporary>
   </component>
