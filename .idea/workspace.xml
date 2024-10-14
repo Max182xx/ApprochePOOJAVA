@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5e9bd3-7aba-47c1-9b44-7982c8bccbb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/TestStringBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Chambre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Cuisine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Maison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/SalleDeBain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Salon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/WC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestIntervenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestIntervenant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Intervenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Intervenant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Pigiste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Pigiste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Salaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/salaire/Salaire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +45,8 @@
     "Application.ManipulationChaine.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
     "Application.TestBanque.executor": "Run",
+    "Application.TestCalendar.executor": "Run",
+    "Application.TestDates.executor": "Run",
     "Application.TestIntervenant.executor": "Run",
     "Application.TestListeInt.executor": "Run",
     "Application.TestListeString.executor": "Run",
@@ -82,13 +74,39 @@
       <recent name="C:\Developpement\Java\ApprochePOOJAVA\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestStringBuilder">
+  <component name="RunManager" selected="Application.TestCalendar">
     <configuration name="ManipulationChaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.ManipulationChaine" />
       <module name="ApprochePOOJAVA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fr.diginamic.chaines.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestCalendar" />
+      <module name="ApprochePOOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.dates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestDates" />
+      <module name="ApprochePOOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.dates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,39 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTheatre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestTheatre" />
-      <module name="ApprochePOOJAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.diginamic.essais.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mapVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maps.mapVilles" />
-      <module name="ApprochePOOJAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCalendar" />
+        <item itemvalue="Application.TestDates" />
         <item itemvalue="Application.TestStringBuilder" />
         <item itemvalue="Application.TestIntervenant" />
         <item itemvalue="Application.ManipulationChaine" />
-        <item itemvalue="Application.TestTheatre" />
-        <item itemvalue="Application.mapVilles" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +168,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/listes/FusionListe.java</url>
           <line>7</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
