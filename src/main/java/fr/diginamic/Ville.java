@@ -1,5 +1,6 @@
 package fr.diginamic;
 
+//TP18 APPRENDRE A REDEFINIR EQUALS
 public class Ville implements Comparable<Ville> {
     private String nom;
     private Integer nbHabs;
@@ -7,6 +8,15 @@ public class Ville implements Comparable<Ville> {
     public Ville(String nom, int nbHabs) {
         this.nom = nom;
         this.nbHabs = nbHabs;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Ville)){
+            return false;
+        }
+        Ville autre = (Ville)obj;
+        return this.nom.equals(autre.getNom()) && this.nbHabs.equals(autre.getNbHabs()) ;
     }
 
     @Override

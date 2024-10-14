@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5e9bd3-7aba-47c1-9b44-7982c8bccbb0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/equals/TestEquals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
     "Application.TestBanque.executor": "Run",
     "Application.TestCalendar.executor": "Run",
     "Application.TestDates.executor": "Run",
+    "Application.TestEquals.executor": "Run",
     "Application.TestIntervenant.executor": "Run",
     "Application.TestListeInt.executor": "Run",
     "Application.TestListeString.executor": "Run",
@@ -73,20 +76,7 @@
       <recent name="C:\Developpement\Java\ApprochePOOJAVA\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCalendar">
-    <configuration name="ManipulationChaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.ManipulationChaine" />
-      <module name="ApprochePOOJAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.diginamic.chaines.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestEquals">
     <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestCalendar" />
       <module name="ApprochePOOJAVA" />
@@ -106,6 +96,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fr.diginamic.dates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.equals.TestEquals" />
+      <module name="ApprochePOOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.equals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestCalendar" />
+        <item itemvalue="Application.TestEquals" />
         <item itemvalue="Application.TestDates" />
+        <item itemvalue="Application.TestCalendar" />
         <item itemvalue="Application.TestStringBuilder" />
         <item itemvalue="Application.TestIntervenant" />
-        <item itemvalue="Application.ManipulationChaine" />
       </list>
     </recent_temporary>
   </component>
@@ -172,11 +175,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java</url>
           <line>6</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

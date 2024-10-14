@@ -7,14 +7,11 @@ import java.util.Date;
 public class TestDates {
     public static void main(String[] args) {
 
-        SimpleDateFormat date = new SimpleDateFormat("EEE dd MMMM yyyy");
+        SimpleDateFormat date = new SimpleDateFormat("dd/MM/yyyy");
         System.out.println(date.format(new Date()));
 
-        SimpleDateFormat formateur = new SimpleDateFormat("yyyy/MMM/dd HH:mm:ss");
+        SimpleDateFormat formateur = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         System.out.println(formateur.format(new Date(116, 4, 19, 23, 59, 30)));
-
-
-
 
     }
 }
