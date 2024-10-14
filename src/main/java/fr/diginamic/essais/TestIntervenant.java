@@ -1,5 +1,6 @@
 package fr.diginamic.essais;
 
+//  J1 Terminé Exercice CalculSalaire
 import fr.diginamic.salaire.Pigiste;
 import fr.diginamic.salaire.Salaire;
 

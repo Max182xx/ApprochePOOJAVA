@@ -1,5 +1,7 @@
 package fr.diginamic.salaire;
 
+// J1 Terminé Exercice CalculSalaire
+
 public abstract class Intervenant {
 
     private String nom;

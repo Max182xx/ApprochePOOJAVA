@@ -1,9 +1,11 @@
 package fr.diginamic.salaire;
 
+// J1 Terminé Exercice CalculSalaire
+
 public class Pigiste extends Intervenant {
 
-   private int journeeTrav;
-   private double remuneration;
+    private int journeeTrav;
+    private double remuneration;
 
     public Pigiste(String nom, String prenom, int journeeTrav, double remuneration) {
         super(nom, prenom);
