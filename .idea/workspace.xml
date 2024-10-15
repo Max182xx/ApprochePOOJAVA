@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5e9bd3-7aba-47c1-9b44-7982c8bccbb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/equals/TestEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestStringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/utils/StringUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/equals/TestEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/equals/TestEquals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,37 +38,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CreationListe.executor": "Run",
-    "Application.CreationMap.executor": "Run",
-    "Application.CreerFichier.executor": "Run",
-    "Application.FusionListe.executor": "Run",
-    "Application.LectureFichier.executor": "Run",
-    "Application.ManipulationChaine.executor": "Run",
-    "Application.TestAdressePostale.executor": "Run",
-    "Application.TestBanque.executor": "Run",
-    "Application.TestCalendar.executor": "Run",
-    "Application.TestDates.executor": "Run",
-    "Application.TestEquals.executor": "Run",
-    "Application.TestIntervenant.executor": "Run",
-    "Application.TestListeInt.executor": "Run",
-    "Application.TestListeString.executor": "Run",
-    "Application.TestMethodeStatic.executor": "Run",
-    "Application.TestMoyenne.executor": "Run",
-    "Application.TestOperations.executor": "Run",
-    "Application.TestPersonne.executor": "Run",
-    "Application.TestStringBuilder.executor": "Run",
-    "Application.TestTheatre.executor": "Run",
-    "Application.TestVilles.executor": "Run",
-    "Application.mapVilles.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Developpement/Java/approche-imperative",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CreationListe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreationMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreerFichier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FusionListe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LectureFichier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManipulationChaine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAdressePostale.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBanque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCalendar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestDates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestEquals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestIntervenant.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestListeInt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestListeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMethodeStatic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMoyenne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPersonne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestStringBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestTheatre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestVilles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mapVilles.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Developpement/Java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="listes" />
@@ -76,7 +78,7 @@
       <recent name="C:\Developpement\Java\ApprochePOOJAVA\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestEquals">
+  <component name="RunManager" selected="Application.TestCalendar">
     <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestCalendar" />
       <module name="ApprochePOOJAVA" />
@@ -144,9 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestEquals" />
-        <item itemvalue="Application.TestDates" />
         <item itemvalue="Application.TestCalendar" />
+        <item itemvalue="Application.TestDates" />
+        <item itemvalue="Application.TestEquals" />
         <item itemvalue="Application.TestStringBuilder" />
         <item itemvalue="Application.TestIntervenant" />
       </list>
@@ -170,11 +172,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/listes/FusionListe.java</url>
           <line>7</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

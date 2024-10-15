@@ -13,25 +13,28 @@ public class TestCalendar  {
 
         Calendar cal = Calendar.getInstance();
         cal.set(2016,4,19,23,59,30);
+        System.out.println(cal.getTime());
+        Date date2016 = cal.getTime();
 
-        Date date = cal.getTime();
-        SimpleDateFormat timeFormat = new SimpleDateFormat("dd MMMM yyyy");
-        System.out.println(timeFormat.format(date));
+        String  pattern = "EEEE dd MMMM yyyy HH:mm:ss";
+        SimpleDateFormat formateur = new SimpleDateFormat(pattern);
+        System.out.println(formateur.format(date2016));
 
-        SimpleDateFormat formateur = new SimpleDateFormat("yyyy MMMM dd HH:mm:ss", Locale.US);
-        System.out.println(formateur.format(new Date( 116,4,19,23,59, 30)));
+        Date dateJour = Calendar.getInstance().getTime();
+        SimpleDateFormat formateurJourHeure = new SimpleDateFormat(pattern);
+        System.out.println(formateurJourHeure.format(dateJour));
 
-        SimpleDateFormat formateur2 = new SimpleDateFormat("yyyy MMMM dd HH:mm:ss", Locale.FRANCE);
-        System.out.println(formateur2.format(new Date(116, 4,19,23,59,30)));
+        SimpleDateFormat formateurJourHeureFR = new SimpleDateFormat(pattern);
+        System.out.println(formateurJourHeureFR.format(dateJour));
 
-        SimpleDateFormat formateur3 = new SimpleDateFormat("yyyy MMMM dd HH:mm:ss", Locale.CHINA);
-        System.out.println(formateur3.format(new Date(116, 4,19,23,59,30)));
+        SimpleDateFormat formateurJourHeureCH = new SimpleDateFormat(pattern, Locale.CHINA);
+        System.out.println(formateurJourHeureCH.format(dateJour));
 
-        SimpleDateFormat formateur4 = new SimpleDateFormat("yyyy MMMM dd HH:mm:ss", Locale.GERMAN);
-        System.out.println(formateur4.format(new Date(116, 4,19,23,59,30)));
+        SimpleDateFormat formateurJourHeureAL = new SimpleDateFormat(pattern, Locale.GERMAN);
+        System.out.println(formateurJourHeureAL.format(dateJour));
 
-        SimpleDateFormat formateur5 = new SimpleDateFormat("yyyy MMMM dd HH:mm:ss", Locale.forLanguageTag("ru"));
-        System.out.println(formateur5.format(new Date(116, 4,19,23,59,30)));
+        SimpleDateFormat formateurJourHeureUR = new SimpleDateFormat(pattern, new Locale("ru"));
+        System.out.println(formateurJourHeureUR.format(dateJour));
 
     }
 }
