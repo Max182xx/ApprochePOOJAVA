@@ -16,7 +16,7 @@ public class Ville implements Comparable<Ville> {
             return false;
         }
         Ville autre = (Ville)obj;
-        return this.nom.equals(autre.getNom()) && this.nbHabs.equals(autre.getNbHabs()) ;
+        return this.nom.equals(autre.nom) && this.nbHabs.equals(autre.getNbHabs());
     }
 
     @Override

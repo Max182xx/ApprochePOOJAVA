@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5e9bd3-7aba-47c1-9b44-7982c8bccbb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestStringBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/utils/StringUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Ville.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/equals/TestEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/equals/TestEquals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +75,7 @@
       <recent name="C:\Developpement\Java\ApprochePOOJAVA\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCalendar">
+  <component name="RunManager" selected="Application.TestEquals">
     <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestCalendar" />
       <module name="ApprochePOOJAVA" />
@@ -146,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEquals" />
         <item itemvalue="Application.TestCalendar" />
         <item itemvalue="Application.TestDates" />
-        <item itemvalue="Application.TestEquals" />
         <item itemvalue="Application.TestStringBuilder" />
         <item itemvalue="Application.TestIntervenant" />
       </list>

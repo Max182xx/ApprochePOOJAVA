@@ -6,16 +6,18 @@ import fr.diginamic.Ville;
 public class TestEquals {
     public static void main(String[] args) {
 
-        Ville v1 = new Ville("Nice",  343000);
+        Ville v1 = new Ville("Nice", 343000);
         Ville v2 = new Ville("Nice", 343000);
+        System.out.println(v1.equals(v2));
 
+        Ville v3 = new Ville("Nice", 343000);
+        System.out.println(v1.equals(v3));
 
+        Ville v4 = new Ville("Nice", 343000);
+        System.out.println(v1.equals(v4));
 
-        boolean result = v1.equals(v2);
-        System.out.println("Le resulat avec equals : " + result);
-
-        boolean reulst1 = v1 == v2;
-        System.out.println("Le resulat avec == : " + reulst1);
+        Ville v5 = v1;
+        System.out.println(v1.equals(v5));
 
     }
 }
