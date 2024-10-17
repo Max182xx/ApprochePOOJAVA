@@ -4,7 +4,7 @@ package fr.diginamic.maison;
 public class Chambre extends  Piece{
 
 
-    public Chambre(double superficie, short nmrEtage) {
+    public Chambre(double superficie, int nmrEtage) {
         super(superficie, nmrEtage);
     }
 }

@@ -4,9 +4,9 @@ package fr.diginamic.maison;
 public class Piece {
 
     double superficie;
-    short nmrEtage;
+    int nmrEtage;
 
-    public Piece(double superficie, short nmrEtage){
+    public Piece(double superficie, int nmrEtage){
         this.superficie = superficie;
         this.nmrEtage = nmrEtage;
     }
@@ -18,11 +18,11 @@ public class Piece {
         this.superficie = superficie;
     }
 
-    public short getNbrPiece() {
+    public int getNbrPiece() {
         return nmrEtage;
     }
 
-    public void setNbrPiece(short nmrEtage) {
+    public void setNbrPiece(int nmrEtage) {
         this.nmrEtage = nmrEtage;
     }
 
