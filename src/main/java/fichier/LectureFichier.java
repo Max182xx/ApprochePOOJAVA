@@ -11,7 +11,7 @@ public class LectureFichier {
 
         ArrayList<Ville> ville = new ArrayList<>();
 
-        Path path = Paths.get("C:/Users/mgarc/OneDrive/Bureau/CoursCDA/07 - Java approche POO/TP/recensement.csv");
+        Path path = Paths.get("C:\\Developpement\\Java\\ApprochePOOJAVA\\recensement.csv");
 
         List<String> lines = Files.readAllLines(path);
 

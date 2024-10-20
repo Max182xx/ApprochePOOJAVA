@@ -2,6 +2,7 @@ package fr.diginamic.essais;
 
 import fr.diginamic.maison.*;
 
+// J1 Exercice Immobilier
 public class TestMaison {
     public static void main(String[] args) {
 

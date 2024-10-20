@@ -2,6 +2,7 @@ package fr.diginamic.maison;
 
 import java.util.ArrayList;
 
+// J1 Exercice Immobilier
 public class Maison {
     private ArrayList<Piece> pieces;
 
